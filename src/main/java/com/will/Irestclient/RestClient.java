@@ -21,4 +21,11 @@ public interface RestClient {
             .baseUrl("http://servicio-monkydevs.rhcloud.com")
             .addConverterFactory(GsonConverterFactory.create())
             .build();
+
+   /* public interface DisbursementClient {
+
+    @POST("loan/")
+    Call<DisbursementResponse> addLoan(@Body LoanDto loanDto);
+
+    }*/
 }
